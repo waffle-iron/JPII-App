@@ -1,4 +1,4 @@
-target 'MyApp' do
+target 'JPII-App' do
   pod 'CVCalendar', '~> 1.2.9'
-  workspace 'MyWorkspace'
+  workspace 'project'
 end
