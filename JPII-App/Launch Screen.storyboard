@@ -16,18 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="panthericon.png" translatesAutoresizingMaskIntoConstraints="NO" id="RqZ-a3-cQ1">
-                                <rect key="frame" x="55" y="54" width="490" height="492"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="panthericon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hyx-PX-7KB">
+                                <rect key="frame" x="180" y="180" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="490" id="5Up-Dd-Lzk"/>
-                                    <constraint firstAttribute="height" constant="492" id="BuU-3Q-R9d"/>
+                                    <constraint firstAttribute="height" constant="240" id="QAe-jQ-zLr"/>
+                                    <constraint firstAttribute="width" constant="240" id="ich-QU-3FH"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.5" green="0.43589705145723767" blue="0.30173022672488414" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="RqZ-a3-cQ1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0sk-ry-uOh"/>
-                            <constraint firstItem="RqZ-a3-cQ1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tGS-FO-qEs"/>
+                            <constraint firstItem="Hyx-PX-7KB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AgS-ln-IWI"/>
+                            <constraint firstItem="Hyx-PX-7KB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pxM-rb-cu9"/>
                         </constraints>
                     </view>
                 </viewController>

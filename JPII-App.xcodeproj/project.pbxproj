@@ -13,7 +13,7 @@
 		37E395641CDAD65F009BB358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E395621CDAD65F009BB358 /* Main.storyboard */; };
 		37E395661CDAD65F009BB358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E395651CDAD65F009BB358 /* Assets.xcassets */; };
 		37E395711CDAD788009BB358 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E395701CDAD788009BB358 /* Launch Screen.storyboard */; };
-		37E395741CDAD7B3009BB358 /* panthericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E395731CDAD7B3009BB358 /* panthericon.png */; };
+		37E395761CDADC6A009BB358 /* panthericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E395751CDADC6A009BB358 /* panthericon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		37E395651CDAD65F009BB358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37E3956A1CDAD65F009BB358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E395701CDAD788009BB358 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		37E395731CDAD7B3009BB358 /* panthericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panthericon.png; path = ../../../Downloads/panthericon.png; sourceTree = "<group>"; };
+		37E395751CDADC6A009BB358 /* panthericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panthericon.png; path = ../../Downloads/panthericon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		37E395721CDAD7A8009BB358 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				37E395731CDAD7B3009BB358 /* panthericon.png */,
+				37E395751CDADC6A009BB358 /* panthericon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 				37E395661CDAD65F009BB358 /* Assets.xcassets in Resources */,
 				37E395711CDAD788009BB358 /* Launch Screen.storyboard in Resources */,
 				37E395641CDAD65F009BB358 /* Main.storyboard in Resources */,
-				37E395741CDAD7B3009BB358 /* panthericon.png in Resources */,
+				37E395761CDADC6A009BB358 /* panthericon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +305,7 @@
 				37E3956F1CDAD65F009BB358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
