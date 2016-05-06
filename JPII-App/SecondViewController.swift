@@ -35,7 +35,7 @@ class SecondViewController: UIViewController {
     }
 
     override func viewWillAppear(animated: Bool) {
-        
+        webView.reload()
     }
     
     func webViewDidStartLoad(_ : UIWebView) {

@@ -32,7 +32,7 @@ class FirstViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        
+        webView.reload()
     }
 
     override func didReceiveMemoryWarning() {
