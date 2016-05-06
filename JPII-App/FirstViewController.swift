@@ -13,6 +13,9 @@ class FirstViewController: UIViewController {
     //VARS
     
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var reloadButton: UIBarButtonItem!
+    @IBOutlet weak var activity: UIActivityIndicatorView!
+    
     
     //FUNC
 
@@ -24,6 +27,12 @@ class FirstViewController: UIViewController {
         let requestURL = NSURL(string:url)
         let request = NSURLRequest(URL: requestURL!)
         webView.loadRequest(request)
+        
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +40,17 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func reloadPage(sender: UIBarButtonItem) {
+        webView.reload()
+    }
+    
+    func webViewDidStartLoad(_ : UIWebView) {
+        activity.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(_ : UIWebView) {
+        activity.stopAnimating()
+    }
 
 }
 

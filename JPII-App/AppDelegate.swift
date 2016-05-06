@@ -35,6 +35,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        if Reachability.isConnectedToNetwork() == true {
+            print("Internet connection OK")
+        } else {
+            print("Internet connection FAILED")
+            let alert = UIAlertController(title: "Offline!", message:"As of JPII-App 1.0, offline use is not supported yet. Please connect to internet and try again.", preferredStyle: .Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .Default) { _ in exit(0) })
+            let rootVC = UIApplication.sharedApplication().keyWindow?.rootViewController
+            rootVC?.presentViewController(alert, animated: true){}
+        }
+        
+        
     }
 
     func applicationWillTerminate(application: UIApplication) {
