@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/JPII-Code/JPII-App.png?label=ready&title=Ready)](https://waffle.io/JPII-Code/JPII-App)
 # JPII-App
 ### "An app I'm making for the school." || Now Hiring! See link! ---> [http://august712.me/apply](http://august712.me/apply)
 
